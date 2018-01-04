@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Launch dev.innotech.vip",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://dev.innotech.vip/index.html",
+            "webRoot": "${workspaceRoot}/"
+        }
+    ]
+}
