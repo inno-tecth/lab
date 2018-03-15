@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outFile": "bin/index.js",
+        "declaration": true,
+        "noImplicitAny": true,
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

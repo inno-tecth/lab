@@ -1,0 +1,21 @@
+{
+  "name": "mylibs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2"
+  }
+}
