@@ -1,0 +1,18 @@
+{
+  "name": "js-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "build -debug",
+    "build": "build -release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hound": "^1.0.5",
+    "uglify-js": "^3.4.8"
+  }
+}
