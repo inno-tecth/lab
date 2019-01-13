@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body>
+    <script  type="text/javascript">
+       var Module = {
+        onRuntimeInitialized: function() {
+          var func = Module.MyClass.getStringFromInstance;
+          console.log(func());
+          console.log(func);
+        }
+      };
+    </script>
+    <script  type="text/javascript" src="demo.js"></script>
+     <script  type="text/javascript">
+       var func = inno.MyClass.getStringFromInstance;
+          console.log(func());
+          console.log(func);
+    </script>
+  </body>
+</html>
+
+
